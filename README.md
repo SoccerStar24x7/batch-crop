@@ -1,5 +1,6 @@
 SLICING:
-example: (0:1000, 200:1200)
+example:
+cropped_image = img["INPUT SLICING CROP INFO (SEE README)"] # Slicing to crop the image
 
 A parameter:
 - First specify the initial index (the pixel to start from)
