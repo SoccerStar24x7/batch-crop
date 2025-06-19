@@ -2,7 +2,7 @@ SLICING:
 
 example:
 
-cropped_image = img["INPUT SLICING CROP INFO (SEE README)"] 
+cropped_image = img[0:1000, 200:1200] 
 
 A parameter:
 - First specify the initial index (the pixel to start from)
