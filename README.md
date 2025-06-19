@@ -1,4 +1,5 @@
 SLICING:
+
 example:
 
 cropped_image = img["INPUT SLICING CROP INFO (SEE README)"] 
