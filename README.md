@@ -17,3 +17,7 @@ In the second parameter in our example:
 - It starts at the pixel 200
 - It ends at the pixel 1200
 - This second parameter is the columns, or X-Axis.
+
+EXIT CODES: 
+0 - script went successfully
+1 - read the main part of the readme. :mad
