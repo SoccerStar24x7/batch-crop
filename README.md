@@ -22,4 +22,4 @@ EXIT CODES:
 
 0 - script went successfully
 
-1 - read the main part of the readme. :mad:
+1 - read the main part of the readme. 👺
