@@ -1,6 +1,10 @@
-import cv2
-import numpy as np
 import os
+
+try:
+    import cv2
+except ModuleNotFoundError:
+    print("OpenCV dependancy not installed. Installing now...")
+    os.system("pip install opencv-python")
 
 
 def crop_images(folder_path):
@@ -12,7 +16,7 @@ def crop_images(folder_path):
             img = cv2.imread(image_path)
             
             try:
-                cropped_image = img["ADD SLICING INFO (SEE GITHUB README)"] # Slicing to crop the image
+                cropped_image = img["ADD SLICING INFO (SEE GITHUB README)"] # Slicing to crop the image. REMOVE THE QUOTES_________________________________
 
             except IndexError:
                 print("FILL IN YOUR SLICING INFO!! CHECK README!")
@@ -31,5 +35,4 @@ def main():
     crop_images(folder_path)  # call the function to crop images
 
 
-if __name__ == "__main__":
-    main()  # run the main function"
+main()
